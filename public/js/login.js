@@ -14,8 +14,9 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        // If successful, redirect the browser to the profile page
-        document.location.replace('/profile');
+        // If successful, redirect the browser to the DASHBOARD page
+        //changed from profile
+        document.location.replace('/dashboard');
       } else {
         alert(response.statusText);
       }
@@ -37,7 +38,8 @@ const loginFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/profile');
+        //changed from profile
+        document.location.replace('/dashboard');
       } else {
         alert(response.statusText);
       }
