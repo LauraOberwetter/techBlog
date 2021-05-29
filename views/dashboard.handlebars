@@ -1,0 +1,20 @@
+<h2 id="dashboardTitle">Your Posts</h2>
+<section class="container">
+    <div id="dashboardPosts">
+        <h4>Recent Posts:</h4>
+
+{{#each post as |post| }}
+
+{{> dashboard-details}}
+
+{{/each}}
+
+ </div>
+ </section>
+ <div>
+     <button id="newPostBtn" type="button">
+         <a id="newPostLink" href="dashboard/newpost" style="color:white">
+            Make Post
+        </a>
+    </button>
+ </div>
