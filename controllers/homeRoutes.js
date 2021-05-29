@@ -61,7 +61,6 @@ router.get('/dashboard', withAuth, async (req, res) => {
 
     const user = userData.get({ plain: true });
 
-    //changed from profile
     res.render('dashboard', {
       ...user,
       logged_in: true
