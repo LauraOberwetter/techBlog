@@ -38,6 +38,5 @@ https://user-images.githubusercontent.com/23666524/120119747-16974b80-c15f-11eb-
    
 
 ## Link
-Deployed via Heroku: 
-Deployed via GitHub: 
+Deployed via Heroku: https://damp-tundra-46535.herokuapp.com/
 
