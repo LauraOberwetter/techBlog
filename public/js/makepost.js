@@ -3,6 +3,7 @@ const makePostHandler = async (event) => {
     event.preventDefault();
 
 // Collect values from the make-post form
+// make-post.handlebars
 const makePostTitle = document.querySelector('#make-post-title').value.trim();
 const makePostBody = document.querySelector('#make-post-body').value.trim();
 
