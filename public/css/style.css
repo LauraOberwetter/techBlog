@@ -1,4 +1,12 @@
 body {
     background-color: aquamarine;
 }
-  
+
+
+.post {
+    border: solid;
+    border-radius: 30px;
+    border-color: black;
+    padding: 3%;
+    margin-left: 10%;
+}

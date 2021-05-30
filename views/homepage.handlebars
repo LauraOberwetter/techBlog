@@ -1,22 +1,24 @@
 <!-- Loop over each object in the projects array -->
 {{#each post as |post| }}
 
-<div class="row mb-4 project">
-  <div class="col-md-5">
+<div class="container">
+  <div class="row mb-4 post">
+    <div class="col-md-9">
 
-    <h1 class="postTitle">
-      {{post.title}}
-    </h1>
+      <h1 class="postTitle">
+        {{post.title}}
+      </h1>
 
-    <h4 class="postBody">
-      {{post.postBody}}
-    </h4>
+      <h4 class="postBody">
+        {{post.postBody}}
+      </h4>
 
-    <p class="byLine">
-      Created by {{post.user.name}} on {{format_date post.date_created}}
-    </p>
+      <p class="byLine">
+        Created by {{post.user.name}} on {{format_date post.date_created}}
+      </p>
+
+    </div>
 
   </div>
-
+  {{/each}}
 </div>
-{{/each}}

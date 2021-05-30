@@ -11,5 +11,15 @@ router.get('/', async (req, res) => {
             user_id: req.session.user_id,
           },
       });
+// make new post after clicking btn
+router.post("/", withAuth, (req, res) => {
+    BlogPosts.create({
+      user_id: req.session.user_id,
+      title: req.body.newTitle,
+      content: req.body.newPostBody,
+    })
+      .then(() => res.redirect("/dashboard"))
+      .catch((err) => res.status(500).json(err));
+  });
 
   });
