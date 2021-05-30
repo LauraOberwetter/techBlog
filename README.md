@@ -31,6 +31,8 @@ This is a CMS style blog featuring tech related posts. Users can sign up, log in
     
 
 ## Preview
+https://user-images.githubusercontent.com/23666524/120119747-16974b80-c15f-11eb-8676-ece5f85e04f7.mov
+
 
 
    
